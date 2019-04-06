@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1553801172 source:c:\learn and design\university\c\lab3\task3_dowhile\task1.c
+	<math.h>
+	"func.h"
+
+1553692808 c:\learn and design\university\c\lab3\task3_dowhile\func.h
+
+1553801184 source:c:\learn and design\university\c\lab3\task3_dowhile\task2.c
+	<math.h>
+	"func.h"
+
+1553801197 source:c:\learn and design\university\c\lab3\task3_dowhile\task3.c
+	<stdio.h>
+	<math.h>
+	"func.h"
+
+1553801214 source:c:\learn and design\university\c\lab3\task3_dowhile\task4.c
+	<math.h>
+	"func.h"
+
+1553801224 source:c:\learn and design\university\c\lab3\task3_dowhile\task5.c
+	<math.h>
+	"func.h"
+
+1553801261 source:c:\learn and design\university\c\lab3\task3_dowhile\maindowhile.c
+	<stdio.h>
+	"func.h"
+
