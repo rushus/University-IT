@@ -1,8 +1,8 @@
 #ifndef FUNC_H_INCLUDED
 #define FUNC_H_INCLUDED
 
-float x, result;
-void func();
+double x, result;
+void f();
 
 
 #endif // FUNC_H_INCLUDED

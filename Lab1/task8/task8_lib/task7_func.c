@@ -1,7 +1,7 @@
 #include <math.h>
 #include "func.h"
 
-float x, result;
-void func(){
+double x, result;
+void f(){
 	result = pow(cos(x), 2)+pow(cos(x), 4);
 }

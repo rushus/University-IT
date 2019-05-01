@@ -3,13 +3,13 @@
 
 void main(){
 	x=5;
-	func();
-	printf("x =  %.4f\nf(x) = %.4f", x, result);
+	f();
+	printf("x =  %.4lf\nf(x) = %.4lf", x, result);
 
 	printf("\nEnter x:\n");
-	scanf("%f", &x);
-	func();
-	printf("x =  %.4f\nf(x) = %.4f\n", x, result);
+	scanf("%lf", &x);
+	f();
+	printf("x =  %.4lf\nf(x) = %.4lf\n", x, result);
 
 	system("pause");
     return 0;
