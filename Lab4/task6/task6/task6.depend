@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1556141142 source:c:\learn and design\university\c\lab4\task6\task1.c
+	<stdio.h>
+	<math.h>
+
+1556141148 source:c:\learn and design\university\c\lab4\task6\task2.c
+	<stdio.h>
+	<math.h>
+
+1556142975 source:c:\learn and design\university\c\lab4\task6\task3.c
+	<stdio.h>
+	<math.h>
+
+1556142996 source:c:\learn and design\university\c\lab4\task6\task4.c
+	<stdio.h>
+	<math.h>
+
+1556141271 source:c:\learn and design\university\c\lab4\task6\task5.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1556142364 source:c:\learn and design\university\c\lab4\task6\main.c
+	<stdio.h>
+	"func.h"
+
+1556142870 c:\learn and design\university\c\lab4\task6\func.h
+
