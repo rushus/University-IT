@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1559074669 source:c:\learn and design\university\c\lab6\task1\task1.c
+	<stdio.h>
+	<time.h>
+	<string.h>
+

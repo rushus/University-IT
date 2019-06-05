@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1559574751 source:c:\learn and design\university\c\lab7\task2\task2.c
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1559686442 source:c:\learn and design\university\c\lab7\task6\task6.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+
