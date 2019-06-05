@@ -1,16 +1,11 @@
-# CMakeList.txt: проект CMake для Lab1; включите исходный код и определения,
-# укажите здесь логику для конкретного проекта.
+# CMakeList.txt: ГЇДџГ®ГҐГЄГІ CMake Г¤Г«Гї Lab1; ГўГЄГ«ЕџГ·ГЁГІГҐ ГЁГ±ГµГ®Г¤Г­Г»Г© ГЄГ®Г¤ ГЁ Г®ГЇДџГҐГ¤ГҐГ«ГҐГ­ГЁГї,
+# ГіГЄГ Г¦ГЁГІГҐ Г§Г¤ГҐГ±Гј Г«Г®ГЈГЁГЄГі Г¤Г«Гї ГЄГ®Г­ГЄДџГҐГІГ­Г®ГЈГ® ГЇДџГ®ГҐГЄГІГ .
 #
 cmake_minimum_required (VERSION 3.0.0)
 
 project ("Lab3")
 
-# Добавьте источник в исполняемый файл этого проекта.
-add_executable (task2_while mainwhile.c)
-add_executable (task2_while task1.c)
-add_executable (task2_while task2.c)
-add_executable (task2_while task3.c)
-add_executable (task2_while task4.c)
-add_executable (task2_while task5.c)
+# Г„Г®ГЎГ ГўГјГІГҐ ГЁГ±ГІГ®Г·Г­ГЁГЄ Гў ГЁГ±ГЇГ®Г«Г­ГїГҐГ¬Г»Г© ГґГ Г©Г« Д±ГІГ®ГЈГ® ГЇДџГ®ГҐГЄГІГ .
+add_executable (task2_while mainwhile.c task1.c task2.c task3.c task4.c task5.c)
 
-# TODO: Добавьте тесты и целевые объекты, если это необходимо.
+# TODO: Г„Г®ГЎГ ГўГјГІГҐ ГІГҐГ±ГІГ» ГЁ Г¶ГҐГ«ГҐГўГ»ГҐ Г®ГЎГєГҐГЄГІГ», ГҐГ±Г«ГЁ Д±ГІГ® Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г®.
