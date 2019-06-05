@@ -3,4 +3,4 @@
 #
 cmake_minimum_required (VERSION 3.0.0)
 
-add_executable (task7 task7.c)
+add_executable (Lab7_task7 "../task7/task7.c")
