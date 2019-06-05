@@ -1,11 +1,16 @@
-# CMakeList.txt: РїСЂРѕРµРєС‚ CMake РґР»СЏ Lab1; РІРєР»СЋС‡РёС‚Рµ РёСЃС…РѕРґРЅС‹Р№ РєРѕРґ Рё РѕРїСЂРµРґРµР»РµРЅРёСЏ,
-# СѓРєР°Р¶РёС‚Рµ Р·РґРµСЃСЊ Р»РѕРіРёРєСѓ РґР»СЏ РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РїСЂРѕРµРєС‚Р°.
+# CMakeList.txt: проект CMake для Lab1; включите исходный код и определения,
+# укажите здесь логику для конкретного проекта.
 #
 cmake_minimum_required (VERSION 3.0.0)
 
 project ("Lab3")
 
-# Р”РѕР±Р°РІСЊС‚Рµ РёСЃС‚РѕС‡РЅРёРє РІ РёСЃРїРѕР»РЅСЏРµРјС‹Р№ С„Р°Р№Р» СЌС‚РѕРіРѕ РїСЂРѕРµРєС‚Р°.
-add_executable (task3_dowhile maindowhile.c task1.c task2.c task3.c task4.c task5.c)
+# Добавьте источник в исполняемый файл этого проекта.
+add_executable (Lab3_taskdowhile6 "../task3_dowhile/maindowhile.c")
+add_executable (Lab3_taskdowhile1 "../task3_dowhile/task1.c")
+add_executable (Lab3_taskdowhile2 "../task3_dowhile/task2.c")
+add_executable (Lab3_taskdowhile3 "../task3_dowhile/task3.c")
+add_executable (Lab3_taskdowhile4 "../task3_dowhile/task4.c")
+add_executable (Lab3_taskdowhile5 "../task3_dowhile/task5.c")
 
-# TODO: Р”РѕР±Р°РІСЊС‚Рµ С‚РµСЃС‚С‹ Рё С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹, РµСЃР»Рё СЌС‚Рѕ РЅРµРѕР±С…РѕРґРёРјРѕ.
+# TODO: Добавьте тесты и целевые объекты, если это необходимо.
