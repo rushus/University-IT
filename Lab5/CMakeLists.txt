@@ -1,15 +1,14 @@
-# CMakeList.txt: файл проекта CMake верхнего уровня; проведите глобальную конфигурацию
-# и включите сюда подпроекты.
+# CMakeList.txt: С„Р°Р№Р» РїСЂРѕРµРєС‚Р° CMake РІРµСЂС…РЅРµРіРѕ СѓСЂРѕРІРЅСЏ; РїСЂРѕРІРµРґРёС‚Рµ РіР»РѕР±Р°Р»СЊРЅСѓСЋ РєРѕРЅС„РёРіСѓСЂР°С†РёСЋ
+# Рё РІРєР»СЋС‡РёС‚Рµ СЃСЋРґР° РїРѕРґРїСЂРѕРµРєС‚С‹.
 #
 cmake_minimum_required (VERSION 3.0.0)
 
 project ("Lab5")
 
-# Включите подпроекты.
+# Р’РєР»СЋС‡РёС‚Рµ РїРѕРґРїСЂРѕРµРєС‚С‹.
 add_subdirectory ("task3")
 add_subdirectory ("task4")
 add_subdirectory ("task5")
 add_subdirectory ("task6")
 
-add_executable (Lab5 task1.c)
-add_executable (Lab5 task2.c)
+add_executable (Lab5 task1.c task2.c)
