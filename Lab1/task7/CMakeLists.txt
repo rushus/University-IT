@@ -7,5 +7,5 @@ cmake_minimum_required (VERSION 3.0.0)
 add_executable (Lab1_task8 "../task7/task7.c")
 
 add_library(Task8_lib STATIC task7_func.c)
-target_link_libraries (task8 Task8_lib)
+target_link_libraries (Lab1_task8 Task8_lib)
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
