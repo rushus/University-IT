@@ -1,11 +1,17 @@
-# CMakeList.txt: ГЇГ°Г®ГҐГЄГІ CMake Г¤Г«Гї Lab1; ГўГЄГ«ГѕГ·ГЁГІГҐ ГЁГ±ГµГ®Г¤Г­Г»Г© ГЄГ®Г¤ ГЁ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї,
-# ГіГЄГ Г¦ГЁГІГҐ Г§Г¤ГҐГ±Гј Г«Г®ГЈГЁГЄГі Г¤Г«Гї ГЄГ®Г­ГЄГ°ГҐГІГ­Г®ГЈГ® ГЇГ°Г®ГҐГЄГІГ .
+# CMakeList.txt: проект CMake для Lab1; включите исходный код и определения,
+# укажите здесь логику для конкретного проекта.
 #
 cmake_minimum_required (VERSION 3.0.0)
 
 project ("Lab3")
 
-# Г„Г®ГЎГ ГўГјГІГҐ ГЁГ±ГІГ®Г·Г­ГЁГЄ Гў ГЁГ±ГЇГ®Г«Г­ГїГҐГ¬Г»Г© ГґГ Г©Г« ГЅГІГ®ГЈГ® ГЇГ°Г®ГҐГЄГІГ .
-add_executable (task1_for mainfor.c task1.c task2.c task3.c task4.c task5.c)
+# Добавьте источник в исполняемый файл этого проекта.
+add_executable (Lab3_taskfor6 "../task1_for/mainfor.c")
+add_executable (Lab3_taskfor1 "../task1_for/task1.c")
+add_executable (Lab3_taskfor2 "../task1_for/task2.c")
+add_executable (Lab3_taskfor3 "../task1_for/task3.c")
+add_executable (Lab3_taskfor4 "../task1_for/task4.c")
+add_executable (Lab3_taskfor5 "../task1_for/task5.c")
 
-# TODO: Г„Г®ГЎГ ГўГјГІГҐ ГІГҐГ±ГІГ» ГЁ Г¶ГҐГ«ГҐГўГ»ГҐ Г®ГЎГєГҐГЄГІГ», ГҐГ±Г«ГЁ ГЅГІГ® Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г®.
+
+# TODO: Добавьте тесты и целевые объекты, если это необходимо.
