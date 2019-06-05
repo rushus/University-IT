@@ -6,11 +6,11 @@ cmake_minimum_required (VERSION 3.0.0)
 project ("Lab3")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Lab3_taskdowhile6 "../task3_dowhile/maindowhile.c")
-add_executable (Lab3_taskdowhile1 "../task3_dowhile/task1.c")
-add_executable (Lab3_taskdowhile2 "../task3_dowhile/task2.c")
-add_executable (Lab3_taskdowhile3 "../task3_dowhile/task3.c")
-add_executable (Lab3_taskdowhile4 "../task3_dowhile/task4.c")
-add_executable (Lab3_taskdowhile5 "../task3_dowhile/task5.c")
+add_executable (Lab3_taskdowhile6 maindowhile.c)
+add_executable (Lab3_taskdowhile1 task1.c)
+add_executable (Lab3_taskdowhile2 task2.c)
+add_executable (Lab3_taskdowhile3 task3.c)
+add_executable (Lab3_taskdowhile4 task4.c)
+add_executable (Lab3_taskdowhile5 task5.c)
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
