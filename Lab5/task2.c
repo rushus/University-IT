@@ -28,8 +28,8 @@ char *find(const char *str, const char *substr)
 void main()
 {
     char* index;
-	const char* str = "winter";
-	const char* substr = "in";
+	const char* str = "hello";
+	const char* substr = "el";
     if((index = find(str, substr)) == NULL)
        printf("0\n");
     else

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1559712960 source:c:\learn and design\university\c\lab5\task6\task6.c
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+
