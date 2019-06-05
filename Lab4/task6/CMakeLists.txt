@@ -1,11 +1,6 @@
-# CMakeList.txt: файл проекта CMake верхнего уровня; проведите глобальную конфигурацию
-# и включите сюда подпроекты.
+# CMakeList.txt: ГґГ Г©Г« ГЇДџГ®ГҐГЄГІГ  CMake ГўГҐДџГµГ­ГҐГЈГ® ГіДџГ®ГўГ­Гї; ГЇДџГ®ГўГҐГ¤ГЁГІГҐ ГЈГ«Г®ГЎГ Г«ГјГ­ГіЕџ ГЄГ®Г­ГґГЁГЈГіДџГ Г¶ГЁЕџ
+# ГЁ ГўГЄГ«ЕџГ·ГЁГІГҐ Г±ЕџГ¤Г  ГЇГ®Г¤ГЇДџГ®ГҐГЄГІГ».
 #
 cmake_minimum_required (VERSION 3.0.0)
 
-add_executable (task6 main.c)
-add_executable (task6 task1.c)
-add_executable (task6 task2.c)
-add_executable (task6 task3.c)
-add_executable (task6 task4.c)
-add_executable (task6 task5.c)
+add_executable (task6 main.c task1.c task2.c task3.c task4.c task5.c)
